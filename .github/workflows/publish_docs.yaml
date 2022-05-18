@@ -32,5 +32,5 @@ jobs:
       - name: Commit & push build docs
         run: |
           git add docs/
-          git commit -m "Updated docs for $GITHUB_REF_NAME"
+          git commit -m "Updated docs for $GITHUB_REF_NAME" || true
           git push origin gh-pages
