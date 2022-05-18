@@ -1,0 +1,31 @@
+﻿anfema\_django\_utils.db
+========================
+
+.. automodule:: anfema_django_utils.db
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :recursive:
+
+   anfema_django_utils.db.functions
+

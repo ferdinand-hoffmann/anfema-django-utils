@@ -1,0 +1,32 @@
+anfema\_django\_utils.db.functions
+==================================
+
+.. automodule:: anfema_django_utils.db.functions
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      Epoch
+      NormalizeUmlauts
+      RegexpReplace
+      SubquerySum
+   
+   
+
+   
+   
+   
+
+
+
