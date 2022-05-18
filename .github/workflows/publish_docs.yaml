@@ -28,6 +28,8 @@ jobs:
           make github
       - name: Commit build docs
         run: |
+          git config user.email "github@anfe.ma"
+          git config user.name "Build Bot"
           git add docs/
           git commit -m "Updated docs for $GITHUB_REF_NAME"
       - name: Push docs
