@@ -24,6 +24,7 @@ dev = [
 docs = [
     "Sphinx",
     "sphinx-autodoc-typehints",
+    "django",
 ]
 
 [tool.setuptools.dynamic]
