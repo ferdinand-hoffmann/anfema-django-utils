@@ -21,7 +21,10 @@ dynamic = ["version"]
 dev = [
     "black",
 ]
-
+docs = [
+    "Sphinx",
+    "sphinx-autodoc-typehints",
+]
 
 [tool.setuptools.dynamic]
 version = {attr = "anfema_django_utils.__version__"}
