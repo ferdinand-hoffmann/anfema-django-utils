@@ -22,16 +22,15 @@ jobs:
           python -m pip install ".[docs]"
       - name: Switch to gh-pages branch
         run: |
+          git config user.email "github@anfe.ma"
+          git config user.name "Build Bot"
           git checkout gh-pages
+          git merge --no-edit $GITHUB_REF_NAME
       - name: Build docs
         run: |
           make github
-      - name: Commit build docs
+      - name: Commit & push build docs
         run: |
-          git config user.email "github@anfe.ma"
-          git config user.name "Build Bot"
           git add docs/
           git commit -m "Updated docs for $GITHUB_REF_NAME"
-      - name: Push docs
-        run: |
           git push origin gh-pages
